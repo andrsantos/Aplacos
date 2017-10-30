@@ -1,0 +1,28 @@
+#include <stdlib.h>
+#include <iostream>
+
+using std::cout;
+using std::cin;
+
+
+int main(int argc, char **argv)
+{
+    int count = 0;
+    int nValor;
+    //double valor;
+    //double soma;
+
+do
+{
+    cout <<"O valor após o incremento é:" << count << '\n';
+    count++;
+    
+} while(count<10);
+
+cout <<"\n\n\ Digite o número de valores a serem somados: \n";
+cin >> nValor;
+
+count = 0;
+soma = 0;
+
+}
